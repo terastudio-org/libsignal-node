@@ -31,8 +31,8 @@ export interface SignalStorage {
 
 export class ProtocolAddress {
   constructor(name: string, deviceId: number);
-  public getName(): string;
-  public getDeviceId(): number;
+  public id: string;
+  public deviceId: number;
   public toString(): string;
 }
 
